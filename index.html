@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact App</title>
+	<link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+	<div class="contacts">
+		<h1>Contacts</h1>
+		<h3>Add a contact:</h3>
+		<form action="">
+
+			<label>First Name</label><br>
+			<input type="text" name="fname"><br>
+			
+			<label>Last Name</label><br>
+			<input type="text" name="lname"><br>
+			
+			<label>Phone Number</label><br>
+			<input type="text" name="pnumber"><br>
+			
+			<label>Street</label><br>
+			<input type="text" name="street"><br>
+			
+			<label>City</label><br>
+			<input type="text" name="city"><br>
+			
+			<label>State</label><br>
+			<input type="text" name="state"><br>
+			
+			<button id="add-contact">Add</button>
+
+		</form>	
+
+		<h3>Contacts:</h3>
+		<ul id="contact-list">
+		</ul>
+	</div>
+
+	<div class="contact-info">
+		<h1></h1>
+		<p id="fname"></p>
+		<p id="lname"></p>
+		<p id="pnumber"></p>
+		<p id="address"></p>
+		<ul class="address-list">
+			<li></li>
+		</ul>
+	</div>
+
+	<script src="https://code.jquery.com/jquery.min.js"></script>
+	<script src="app.js"></script>
+</body>
+</html>

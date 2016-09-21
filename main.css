@@ -1,0 +1,28 @@
+body {
+	text-align: center;
+}
+
+.contacts {
+	text-align: left;
+	display:inline-block;
+}
+
+.contact-info {
+	display:inline-block;
+	vertical-align: top;
+	text-align: left;
+	margin-left:40px;
+}
+
+.address-list {
+	list-style: none;
+}
+
+input {
+	margin-bottom: 10px;
+	width:300px;
+}
+
+::-webkit-input-placeholder {
+   color: red;
+}
